@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>github收藏录</title>
+      <link href="2021/04/17/github-collect/"/>
+      <url>2021/04/17/github-collect/</url>
+      
+        <content type="html"><![CDATA[<p>收藏一些个人觉得不错的项目。</p><ul><li>2d曲线编辑器</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的游戏客户端开发学习之路</title>
+      <link href="2021/04/17/learn-plan/"/>
+      <url>2021/04/17/learn-plan/</url>
+      
+        <content type="html"><![CDATA[<p>本文记录我从入行至今的学习经历。由于前几年闭门造车不思进取，浪费了许多时间。是时候总结一下自己，查漏补缺，并且制定明确的学习计划了。</p><h2 id="计算机基础-amp-编程语言"><a href="#计算机基础-amp-编程语言" class="headerlink" title="计算机基础&amp;编程语言"></a>计算机基础&amp;编程语言</h2><ul><li>入门书籍：《叩响C#之门》，浅显易懂的入门书籍，基本上理工科有了大学的c语言基础就能毫无阻力的拿下。</li><li>进阶书籍：《深入理解计算机基础》，业内简称CSAPP，当语言层面入门之后，应该马上补一下计算机基础，知道程序的背后发生了什么。<ul><li>Bibili CMU15213公开课。ppt浓缩了书的重点知识，适合上下班路上锻炼听力。</li></ul></li><li>进阶书籍：《CLR via C#》，更深刻的理解c#底层，编译器生成，语法的背后以及gc原理。这个时候c#应该比较熟练了，再去接触其他语言（python，js/ts，java，lua等）都应该只是熟悉API的过程，除了C++。。</li><li>c++：许多人都推荐c++primer，但其实当我看完上述三本之后，在看primer总会有一种啰嗦的感觉。所以在此不推荐primer。倒是《effective c++》《深度探索C++对象模型》《STL源码剖析》这三本乍一看都很有价值。不过我暂时还没看完。。</li></ul><h2 id="算法与数据结构"><a href="#算法与数据结构" class="headerlink" title="算法与数据结构"></a>算法与数据结构</h2><ul><li>《算法导论》建议前面关于时间复杂度和空间复杂度的定义要搞清楚。 一本就够，不过此书过于厚重，而且很烧脑，只适合偶尔看看。<ul><li>Bibili麻省理工公开课《算法导论》，里面那个老头讲的很好，同时也能锻炼听力。</li></ul></li><li>《Hacker’s Delight》，中文名《算法心得：高效算法的奥秘》。这本书过于深奥，里面非常多的位运算骚操作。翻阅过几章，没看完。</li></ul><h2 id="计算机图形学"><a href="#计算机图形学" class="headerlink" title="计算机图形学"></a>计算机图形学</h2><p>为什么一个按钮能显示到屏幕上，为什么屏幕上的人物会动？只要涉及到显示的问题，都涉及到图形学的知识。可叹我直到入行第三年多才开始学习这一部分知识。</p><p>计算机图形学是一门综合学科。学到一半通常会要去学习一些其他的知识互相印证。</p><ul><li>数学基础<ul><li>复习线性代数，Bibili 3Blue 《线性代数的本质》，这个系列个人感觉比大学老师讲得好很多。另外3Blue大神还有其他很多类似系列，比如《微积分的本质》。一定会受益良多。</li></ul></li><li>经典视频Bibili《games101》，闫令琪老师的网红课，业内应该无所不知了吧。</li><li>经典书籍《shader入门精要》，对图形学和shader编程会有初步的了解。</li><li>入门书籍《cg编程之阳春白雪与下里巴人》，虽然已经过时，仍不失一阅。</li><li>《Real-time Rendering 4》，游戏中用到的实时渲染技术尽在其中。有能力的一定要看英文原版，能积累很多专业术语，在以后查资料的时候无往不利。毛星云称之为图形学的《九阴真经》。</li><li>《GPU Gems 》系列123，这些都是实用的shader实现技巧。</li></ul><h2 id="程序设计"><a href="#程序设计" class="headerlink" title="程序设计"></a>程序设计</h2><p>这块本来不想写的，因为我觉得这种东西是看书学不来的。设计能力是在日积月累，不断重构中提高的。个人推崇多去阅读一些优秀的源码，然后总结提炼，仔细体会。在这里推荐几个关键词以供搜索。</p><ul><li>依赖注入，控制反转。体会其思想而不必硬套其格式。</li><li>组件式编程。组件式设计让人感觉写代码就像手机装应用，随时装随时卸，分理解耦很方便。</li><li>ECS。传统的组件式由实体管理组件。而ECS由system管理组件，提供了更加友好的内存布局和缓存命中，天然高性能。</li><li>状态机。通用的描述了多个状态之间的转换和数据传递</li></ul><h2 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h2><p>有幸从事过1年多服务器业务逻辑开发，也算一窥服务端奥秘。然而没咋看过书，那就仅仅总结一下学过的东西吧</p><ul><li><p>linux 常见命令行，服务器环境搭建</p></li><li><p>mysql建表，mysql语句</p></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 游戏开发 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>斜方向的九宫格图片拉伸</title>
+      <link href="2021/04/17/image-mesh-enlarge2/"/>
+      <url>2021/04/17/image-mesh-enlarge2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="斜方向的九宫格图片拉伸"><a href="#斜方向的九宫格图片拉伸" class="headerlink" title="斜方向的九宫格图片拉伸"></a>斜方向的九宫格图片拉伸</h1><p>先上最终效果图：</p><img src="/2021/04/17/image-mesh-enlarge2/image-20210417015927183.png" alt="拉升的斜边" style="zoom:50%;"><p>阅读本文需要的基础知识：网格，顶点属性</p><h2 id="一般九宫格拉伸的原理"><a href="#一般九宫格拉伸的原理" class="headerlink" title="一般九宫格拉伸的原理"></a>一般九宫格拉伸的原理</h2><p>在ui制作过程中，九宫格技术通常被用来拉伸一些某个维度上没有明显变化区域。比如按钮和一些界面的底图。它的原理是把一个大的矩形分为9个矩形，保留四个角的矩形不变，上下矩形在横向上无变化作横向拉伸，左右矩形在竖向上无变化作竖向拉伸，中间矩形在横向和竖向都无变化作两个方向拉伸。</p><img src="/2021/04/17/image-mesh-enlarge2/image-20210417015227520.png" alt="原始图片" style="zoom:50%;"><img src="/2021/04/17/image-mesh-enlarge2/image-20210417015249185.png" alt="九宫格拉升后的图片" style="zoom:50%;"><p>在unity中，需要设置精灵图片的border来指定拉伸区域。这种做法的好处就是节省图片资源，用更小分辨率的图去完成更大分辨率的图该做的事。</p><h2 id="斜方向九宫格拉伸"><a href="#斜方向九宫格拉伸" class="headerlink" title="斜方向九宫格拉伸"></a>斜方向九宫格拉伸</h2><p>最近接到了个需求：slg中点击地块会有选中格子的示意，现在需要从点击一个地块变为点击25个地块。然而实际情况是地块示意图是不能被正常水平和垂直拉伸的。。只能被斜方向拉伸。。为了这么一个东西去扩大贴图是极其浪费资源的，于是我想是否能通过斜方向拉伸九宫格来实现。百度谷歌了一圈似乎也没有翻到有人造这个轮子，只好自己写了！</p><p>首先分析斜方向拉伸的网格分布：</p><img src="/2021/04/17/image-mesh-enlarge2/image-20210417015310646.png" alt="网格分布分析" style="zoom:50%;"><p><a href="https://www.geogebra.org/">推荐该作图软件</a></p><p>如图矩形ABCD为原始图片资源，中间的红色区域示意实际像素参考。正如九宫格设置border一样，只不过我们这里的border变成了斜方向的，上图中KF、JG、LI、EH就是我们的border line。RKJS、SIHT，TGFQ、QELR、RSTQ就是要拉伸的区域。</p><p>首先是顶点三角形分析，把整个矩形分为13个小块，4个角落三角形，上下左右4个不变三角形，被拉伸5个四边形。没有重复的顶点。由于四个角落是空像素，可以被优化掉。</p><p>接下来就是uv分析，这里重要的一个概念就是：<strong>不论图片怎样被拉伸，uv是不变的，变化的只有position</strong>。所以可以在一开始就写下所有顶点的uv值 。把上面的ABCD看做unit quad，A为原点，令a=|AE|，b=|AL|，那么每个点的uv可以直接写下来。除了S、Q的y坐标和R、T的横坐标有点麻烦。不过我们可以算出来，比如Q在KF上，KF用截距式可以表示为x/(1-a)+y/(1-b) = 1，代入x=0.5，可以得出y。同理可以得出R的x坐标</p><figure class="highlight c#"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 在实际coding中用下标写起来会比较方便</span></span><br><span class="line"><span class="keyword">var</span> yc  = (<span class="number">1</span> - a - <span class="number">0.5f</span>) * (<span class="number">1</span> - b) / (<span class="number">1</span> - a);</span><br><span class="line"><span class="keyword">var</span> xc  = (<span class="number">1</span> - b - <span class="number">0.5f</span>) * (<span class="number">1</span> - a) / (<span class="number">1</span> - b);</span><br><span class="line"><span class="keyword">var</span> x0  = <span class="keyword">new</span> Vector2(<span class="number">0</span>,      <span class="number">0</span>);</span><br><span class="line"><span class="keyword">var</span> x1  = <span class="keyword">new</span> Vector2(<span class="number">0</span>,      <span class="number">1</span>);</span><br><span class="line"><span class="keyword">var</span> x2  = <span class="keyword">new</span> Vector2(<span class="number">1</span>,      <span class="number">1</span>);</span><br><span class="line"><span class="keyword">var</span> x3  = <span class="keyword">new</span> Vector2(<span class="number">1</span>,      <span class="number">0</span>);</span><br><span class="line"><span class="keyword">var</span> x4  = <span class="keyword">new</span> Vector2(a,      <span class="number">0</span>);</span><br><span class="line"><span class="keyword">var</span> x5  = <span class="keyword">new</span> Vector2(<span class="number">1</span> - a,  <span class="number">0</span>);</span><br><span class="line"><span class="keyword">var</span> x6  = <span class="keyword">new</span> Vector2(a,      <span class="number">1</span>);</span><br><span class="line"><span class="keyword">var</span> x7  = <span class="keyword">new</span> Vector2(<span class="number">1</span> - a,  <span class="number">1</span>);</span><br><span class="line"><span class="keyword">var</span> x8  = <span class="keyword">new</span> Vector2(<span class="number">0</span>,      <span class="number">1</span> - b);</span><br><span class="line"><span class="keyword">var</span> x9  = <span class="keyword">new</span> Vector2(<span class="number">0</span>,      b);</span><br><span class="line"><span class="keyword">var</span> x10 = <span class="keyword">new</span> Vector2(<span class="number">1</span>,      <span class="number">1</span> - b);</span><br><span class="line"><span class="keyword">var</span> x11 = <span class="keyword">new</span> Vector2(<span class="number">1</span>,      b);</span><br><span class="line"><span class="keyword">var</span> x12 = <span class="keyword">new</span> Vector2(<span class="number">0.5f</span>,   yc);</span><br><span class="line"><span class="keyword">var</span> x13 = <span class="keyword">new</span> Vector2(xc,     <span class="number">0.5f</span>);</span><br><span class="line"><span class="keyword">var</span> x14 = <span class="keyword">new</span> Vector2(<span class="number">0.5f</span>,   <span class="number">1</span> - yc);</span><br><span class="line"><span class="keyword">var</span> x15 = <span class="keyword">new</span> Vector2(<span class="number">1</span> - xc, <span class="number">0.5f</span>);</span><br></pre></td></tr></tbody></table></figure><p>上面提到拉伸改变的是position，接下来要分析顶点坐标的变化。想想一下怎样描述拉伸，怎样把拉伸后的坐标赋值到每个顶点上？</p><p>停下来，仔细想想。let’s think a few moment… </p><p>其实这块还是有点难度的，我也在这里卡了挺久并且历经了几个残次品。后来终于顿悟：把图按BD劈成2半，把右半部分向右上方向拉伸，改变的顶点有哪些？同理，如果按AC劈成2半改变的又有哪些呢~</p><figure class="highlight c#"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 设实际图片大小为 w*h，右上角方向拉伸距离为trw*trh, 右下角方向拉伸距离为brw*brh</span></span><br><span class="line"><span class="keyword">var</span> scale  = <span class="keyword">new</span> Vector2(w, h);</span><br><span class="line"><span class="keyword">var</span> vert0  = x0.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert1  = x1.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert2  = x2.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw, trh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert3  = x3.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(brw, brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert4  = x4.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(brw, brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert5  = x5.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(brw, brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert6  = x6.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw, trh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert7  = x7.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw, trh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert8  = x8.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert9  = x9.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert10 = x10.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw + brw, trh + brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert11 = x11.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw + brw, trh + brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert12 = x12.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(brw, brh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert13 = x13.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert14 = x14.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw, trh, <span class="number">0</span>));</span><br><span class="line"><span class="keyword">var</span> vert15 = x15.scale(scale).<span class="keyword">add</span>(<span class="keyword">new</span> Vector3(trw + brw, trh + brh, <span class="number">0</span>));</span><br></pre></td></tr></tbody></table></figure><p>顶点位置、顶点uv、顶点三角形顺序确定了，就可以确定我们的网格了。可以在unity中调参数验证。</p><img src="/2021/04/17/image-mesh-enlarge2/image-20210417015359725.png" alt="拉升一条斜边" style="zoom:50%;"><p>然后我们还有最后一个问题，那就是原点位置还是以左下角去定义的。这样在赋值坐标的时候还要做一次换算比较麻烦。所以需要对顶点位置进行一个平移变换来校准原点。Tx’ = Tx+Vector(UA)</p><p>通过不断调整参数也会发现很多有意思的现象。只能说mesh真是挺好玩的！</p><p>最后，附上本研究的demo工程地址。希望有机会用上该技术的同学不吝star~！</p><p><a href="https://github.com/hitheqing/ObliqueStretch/">demo工程地址</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 九宫格 </tag>
+            
+            <tag> mesh </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我诞生啦</title>
+      <link href="2021/03/15/first_blog/"/>
+      <url>2021/03/15/first_blog/</url>
+      
+        <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><ul><li>本博客是经典hexo+github+域名组合</li><li>不需要买服务器！不需要买服务器！不需要买服务器！原理是hexo本地生成前端html，然后推送到github page。</li></ul><h2 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h2><ul><li>域名购买<ul><li>我是在腾讯云买的</li></ul></li><li>github个人仓库<ul><li>仓库名为 <code>username.github.io</code>,username必须是github账户名。所以每个github只能创建1个</li><li>进入仓库设置，下拉找到github page，设置域名，分支等</li></ul></li><li>npm+hexo环境<ul><li>安装npm，然后参考<a href="https://hexo.io/zh-cn/">hexo官网</a>，<code>npm install hexo-cli -g</code>。可能npm版本过低，在安装过程中会有报错或警告，按提示升级npm即可。</li></ul></li><li>hexo初始化<ul><li>新建一个根目录，然后按照hexo官网的文档即可</li></ul></li><li>设置域名解析<ul><li>网址设为github page地址</li><li>ip设为github page ip;ping一下</li></ul></li><li>设置主题<ul><li><a href="https://github.com/blinkfox/hexo-theme-matery">matery</a>我用的这个主题。也可以去官网查看更多主题。下载并解压到themes路径下</li><li>修改配置文件。这里面有很多项，关于主题在theme，把默认的landscape换成下载的即可。注意文件名要匹配</li></ul></li><li>更多设置<ul><li>在使用过程中会遇到各种不会，别急，慢慢学习记录即可。我后续也会把遇到的各种问题记录一下，以供参考。</li></ul></li></ul><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>关于hexo的教程一搜一大把，因此我不在这做详细的步骤教学，仅仅记录自己的大概步骤。还是得多跟着文档api走～</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
