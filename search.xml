@@ -8,7 +8,7 @@
       <link href="2021/04/17/github-collect/"/>
       <url>2021/04/17/github-collect/</url>
       
-        <content type="html"><![CDATA[<p>收藏一些个人觉得不错的项目。</p><ul><li>2d曲线编辑器</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>收藏一些个人觉得不错的项目。</p><ul><li>2d曲线编辑器  <a href="https://github.com/SebLague/Path-Creator">https://github.com/SebLague/Path-Creator</a></li><li>溶解效果 <a href="https://github.com/zd304/Dissolve">https://github.com/zd304/Dissolve</a></li><li>mesh优化 <a href="https://github.com/zeux/meshoptimizer">https://github.com/zeux/meshoptimizer</a></li><li>delaunay triangulation三角形剖分，维诺图voronoi解构</li><li>render queue插件，查看游戏中的材质和层级 <a href="https://github.com/FreyaHolmer/Render-Queue">https://github.com/FreyaHolmer/Render-Queue</a></li><li>非欧几里得空间，opengl实现  挺有意思的  <a href="https://github.com/HackerPoet/NonEuclidean">https://github.com/HackerPoet/NonEuclidean</a></li><li>ps抠图 chromakey，包含颜色空间转换公式 <a href="https://github.com/hecomi/uChromaKey">https://github.com/hecomi/uChromaKey</a></li><li>软渲染器，包含渲染全套流程，不过产物是framebuffer到图片。<a href="https://github.com/ssloy/tinyrenderer">https://github.com/ssloy/tinyrenderer</a></li><li>unity节点编辑库NodeGraphProcessor，uielement实现 <a href="https://github.com/alelievr/NodeGraphProcessor">https://github.com/alelievr/NodeGraphProcessor</a></li><li>这个大佬专出UE4 demo  <a href="https://github.com/tomlooman">https://github.com/tomlooman</a></li></ul>]]></content>
       
       
       
